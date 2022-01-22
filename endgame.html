@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <p id="score"></p>
-    <a href="index.html"><button>restart</button></a>
-    endgame
+<body style="background-color: #E6BF83;">
+   <div style="width:100%; height:300px; display:flex; justify-content:center; align-items: center; font-size: 135px; color:white;  font-family: 'Roboto Mono', monospace;"><p id="score"></p></div>
+   <div><a href="index.html"><button style="color:white; background-color:#FA8072;
+        height: 100px; width: 300px;font-size:40px; border:5px solid #FA8072; border-radius: 5px; font:sans-serif; margin-left: 600px;">restart</button></a></div>
     <script>let t=Number(localStorage.getItem('score'));
     if(t>=4)
     {
